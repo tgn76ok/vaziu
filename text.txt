@@ -1,0 +1,11 @@
+5)Recursividade é uma técnica onde uma função chama a si mesma para resolver um problema, dividindo-o em subproblemas menores até atingir um caso base. Já a iteração utiliza estruturas de repetição (como for ou while) para resolver o problema sem chamadas recursivas.
+
+Diferenças principais:
+
+    Simplicidade: A recursão é mais elegante e natural para problemas que se dividem em subproblemas (como fatorial ou Fibonacci), enquanto a iteração pode ser mais difícil de entender nesses casos.
+    Eficiência: A iteração tende a ser mais eficiente em termos de memória e desempenho, pois não cria novas pilhas de execução como a recursão.
+    Uso de memória: A recursão pode usar mais memória devido ao empilhamento de chamadas, enquanto a iteração utiliza uma quantidade constante de memória.
+T(n)=T(n−1)+O(1)
+T(n)=T(n−1)+O(1)
+T(n)=T(n−1)+O(1)
+T (n)= t(n+1) +t(n-1) + O(1)
